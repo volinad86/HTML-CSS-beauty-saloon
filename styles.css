@@ -192,3 +192,11 @@ h3, img {
 .sals{
     background-color: transparent;
 }
+
+/* increase image / augmante l'image */
+.scale { 
+    transition: 1s; 
+}
+.scale:hover {
+    transform: scale(1.12); 
+}
