@@ -115,3 +115,16 @@ hr{
     background-color: #ceac92;
     height: 3px;
 }
+
+/* SOLD 15% *************************************************** */
+.sold{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    background: rgba(205, 214, 219, 0.9);
+    top: 0;
+    width: 100%;
+    color: #BD4291;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
