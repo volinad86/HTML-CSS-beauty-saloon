@@ -18,3 +18,59 @@ html{
     background-size: cover;
     
 }
+/* NAV ********************************************************* */
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background: rgba(81, 81, 82, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.rezervation{
+    text-decoration: none;
+    color:azure;
+}
+.rezervation:hover{
+    color: #ceac92 ;
+}
+
+.item{
+    padding: 10px;
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.item:hover{
+    background-color: #BD4291;
+    border-radius: 10px;
+}
+
+.start{
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: #ceac92; 
+} 
+
+.btn{
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color:  #ceac92;
+    color: #d6e6f2;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color:  #BD4291;
+    color: #ceac92 ;
+    cursor: pointer;
+}
