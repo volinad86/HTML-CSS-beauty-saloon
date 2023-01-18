@@ -128,3 +128,47 @@ hr{
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
+
+/* SALONS***************************************************** */
+.papa{
+    display: flex;
+    margin: 0 auto;
+    background: rgba(82, 83, 83, 0.5);
+    background-size: cover;
+    width: 100%;
+    }
+
+.futter{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+.ronde{
+    border-radius: 100%;
+}
+
+h3, img {
+    align-self: center;
+    color: azure;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tel{
+    color: azure;
+    text-decoration: none;
+}
+.tel:hover{
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color:  #ceac92;
+    color: #d6e6f2;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
