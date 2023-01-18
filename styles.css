@@ -78,7 +78,7 @@ html{
 /* HEADING IMAGE AND TEXT ******************************** */
 .heading{
     display: flex;
-    background-image: url(heading.jpg);
+    background-image: url(image/heading.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
