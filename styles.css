@@ -172,3 +172,23 @@ h3, img {
     border: none;
     font-size: 20px;
 }
+
+/* SERVICES********************************************************** */
+.papas{
+    background-color: transparent;
+}
+.sal{
+    display: flex;
+    justify-content: center;
+    background: rgba(82, 83, 83, 0.5);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 40px;
+    color: #444444;
+    -webkit-text-stroke: 1px azure;
+    width: 100%;
+}
+.sals{
+    background-color: transparent;
+}
