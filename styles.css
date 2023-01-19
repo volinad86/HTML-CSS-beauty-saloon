@@ -425,13 +425,13 @@ h3, img {
 
 /*  Menu Sandwich */
     /* Hides the nav menu*/
-.menu{
-    display: none;
-} 
+
 
 @media all and (max-width: 912px){
     /* show burger menu in mobile version */
-    }
+    .menu{
+        display: none;
+    } 
     #btn-menu + label:before{
         content: '\f0c9';  
         display: inline-block;
@@ -558,6 +558,8 @@ h3, img {
     #menu__toggle{
         display: none;
     }
+}
+
 
 
 
