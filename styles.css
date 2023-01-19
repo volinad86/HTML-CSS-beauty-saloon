@@ -234,3 +234,29 @@ h3, img {
 .devision{
     margin-top: 30px;
 } 
+/* CRISMAS DISCAUNTS *******************************************/
+.snow{
+    display: flex;
+    margin-left: 3%; 
+    padding: 20px;
+    width: 900px;
+}
+
+.text{
+    padding: 30px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.disc{
+    width: auto;
+    margin: auto;
+} 
