@@ -512,5 +512,53 @@ h3, img {
     top: 8px;
 }
 
+  /* menu container */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden; 
+    top: 0;
+    width: 300px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1; 
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+  /* menu items */
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #BD4291;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    } 
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    } 
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    } 
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+    } 
+    #menu__toggle{
+        display: none;
+    }
+
+
 
 
