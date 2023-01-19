@@ -200,3 +200,37 @@ h3, img {
 .scale:hover {
     transform: scale(1.12); 
 }
+
+    /* Girl Since 2003 ******************************************** */
+    /* animation pictures */
+    
+.papa2{
+    display: flex;
+    width: 100%;
+    opacity: 0;
+    transition: 22220s;
+}
+.papa2:hover{
+        opacity: 1;
+        transition: 1s;
+}  
+    
+.news{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.news1{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    margin-left: 12%;
+    margin-top: 12%;
+}
+.sort{
+    width: 100%;
+}
+
+.devision{
+    margin-top: 30px;
+} 
