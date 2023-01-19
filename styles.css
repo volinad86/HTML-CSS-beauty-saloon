@@ -338,12 +338,27 @@ h3, img {
     font-size: 20px;
 }
 
+/* Hides the burger menu,  */
+.hamburger-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
 /*  @media all and (max-width: 1200px){*/
     /* ********************************** */
 
     /*  @media all and (max-width: 1200px){*/
     /* ********************************** */
 @media all and (max-width: 1200px){
+
 .papa2{
     display: flex;
     flex-direction: column;
@@ -366,3 +381,41 @@ h3, img {
     background-color: transparent;
 }
 }
+
+
+    /*  @media all and (max-width: 1024px){*/
+    /* ********************************** */
+    /*  */
+     /* ********************************** */
+      /* ********************************** */
+       /* ********************************** */
+@media all and (max-width: 1030px){
+
+.papa2{
+    display: flex;
+    flex-direction: column;
+}
+.futter{
+    display: flex;
+    padding: 0;
+}
+.snow{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.papas{
+    display: flex;
+    background-color: rgba(81, 81, 82, 0.7);
+}
+.disc{
+    margin: auto;
+    margin-bottom: 2%;
+}
+.sal{
+    background-color: transparent;
+}
+
+}
+
+
