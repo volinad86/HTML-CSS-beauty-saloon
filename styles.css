@@ -337,3 +337,32 @@ h3, img {
     border: none;
     font-size: 20px;
 }
+
+/*  @media all and (max-width: 1200px){*/
+    /* ********************************** */
+
+    /*  @media all and (max-width: 1200px){*/
+    /* ********************************** */
+@media all and (max-width: 1200px){
+.papa2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.snow{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.papas{
+    display: flex;
+    background-color: rgba(81, 81, 82, 0.7);
+}
+.disc{
+    margin: auto;
+    margin-bottom: 2%;
+}
+.sal{
+    background-color: transparent;
+}
+}
