@@ -742,7 +742,21 @@ width: 100%;
 .livf{
     margin-top: 1%;
 }
-
-
-
 }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+@media all and (max-width: 280px){
+    .book{
+        margin-top: -45%;
+    }
+    .salchr{
+        margin-top: 0%;
+    }
+    .news{
+        font-size: 20px;
+        text-align: center;
+    }
+    .sal{
+        font-size: 20px;
+    }
+    }
