@@ -585,6 +585,35 @@ h3, img {
         margin-top: 30%;
     }
 
+    /* salon background, service and discounts make transparent */
+.sal{
+    background-color: transparent;
+}
+/* set the background color of the parent in the section SERVICES */
+.papas{
+    background: rgba(81, 81, 82, 0.7);
+}
+/* HR put away in the section Girl Since 2003 */
+.devision{
+    display: none;
+}
+.papa{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    margin: auto;
+}
+.btntop{
+    display: flex;
+    margin-right: -5%;
+} 
+/*Photo ronde  in the section SERVICES zoom in on hover and */
+.scale{
+    width: 450px;
+    height: 450px;
+}
+
 
 
 
