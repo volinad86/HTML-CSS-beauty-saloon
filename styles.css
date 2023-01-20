@@ -560,6 +560,31 @@ h3, img {
     }
 }
 
+    /* background in mobile version */
+    html{
+        background-image: url(background-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        opacity: 1;
+    }
+    .book{
+        margin-bottom: 30%;
+    } 
+    .liv{
+        font-size: 30px;
+    }
+    .beauty{
+        font-size: 30px;
+    }
+    .rezervation{
+        margin-top: 30%;
+    }
+
 
 
 
