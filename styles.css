@@ -694,8 +694,29 @@ width: 100%;
         font-size: 110%;
         padding: 5%;
     }
+    
+/* <!-- Girl Since 2003 --> */
+/* remove image animation не работает */
+.papa2{
+    display: block;
+}
+.news{
+    font-size: 25px;
+
+}
+.news1{
+    width: 100%;
+}
+.move{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    margin-left: 0px;
+    background: rgba(81, 81, 82, 0.7); 
+}
 
 
 
 
-
+}
