@@ -614,6 +614,22 @@ h3, img {
     height: 450px;
 }
 
+/* Girl Since 2003  */
+/* put an inscription on the full size of the parent */
+.news1{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+.move{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.news{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
 
 
 
