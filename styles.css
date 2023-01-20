@@ -16,9 +16,9 @@ html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 }
 /* NAV ********************************************************* */
+
 .menu{
     display: flex;
     justify-content: flex-end;
@@ -29,13 +29,14 @@ html{
     width: 100%;
 }
 
-.rezervation{
+.rezervation1{
     text-decoration: none;
     color:azure;
 }
 .rezervation:hover{
     color: #ceac92 ;
 }
+
 
 .item{
     padding: 10px;
@@ -68,6 +69,7 @@ html{
     border-radius: 10px;
     border: none;
     font-size: 20px;
+    margin-top: 60%;
 }
 .btn:hover{
     background-color:  #BD4291;
@@ -92,6 +94,7 @@ html{
     justify-content: center;
     flex: 1;
     margin-right: 10%;
+    margin-top: 20%;
 }
 
 .beauty{
@@ -357,30 +360,30 @@ h3, img {
 
     /*  @media all and (max-width: 1200px){*/
     /* ********************************** */
-@media all and (max-width: 1200px){
+    @media all and (max-width: 1200px){
 
-.papa2{
-    display: flex;
-    flex-direction: column;
-    
-}
-.snow{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-.papas{
-    display: flex;
-    background-color: rgba(81, 81, 82, 0.7);
-}
-.disc{
-    margin: auto;
-    margin-bottom: 2%;
-}
-.sal{
-    background-color: transparent;
-}
-}
+        .papa2{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .snow{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .papas{
+            display: flex;
+            background-color: rgba(81, 81, 82, 0.7);
+        }
+        .disc{
+            margin: auto;
+            margin-bottom: 2%;
+        }
+        .sal{
+            background-color: transparent;
+        }
+        }
 
 
     /*  @media all and (max-width: 1024px){*/
@@ -389,7 +392,7 @@ h3, img {
      /* ********************************** */
       /* ********************************** */
        /* ********************************** */
-@media all and (max-width: 1030px){
+ @media all and (max-width: 1030px){
 
 .papa2{
     display: flex;
@@ -415,7 +418,7 @@ h3, img {
 .sal{
     background-color: transparent;
 }
-}
+} 
 
 /* MOBILE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* *************************************************************** */
@@ -438,6 +441,7 @@ h3, img {
         font-family:'FontAwesome';
         font-size: 22px;
     }
+    
     #btn-menu:checked + label:before{
         content: '\f00d';
         color: #f00;
@@ -480,37 +484,37 @@ h3, img {
     }
 
      /* style the button */
-.menu__btn {
-    display: flex; /* use flex to center content */
-    align-items: center;  /* center button content*/
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
-    background: #BD4291;
-}
+    .menu__btn {
+        display: flex; /* use flex to center content */
+        align-items: center;  /* center button content*/
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+        background: #BD4291;
+    }
 
   /* add hamburger */
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
     height: 2px;
     background-color: azure;
-}
-.menu__btn > span::before {
+    }
+    .menu__btn > span::before {
     content: '';
     top: -8px;
-}
-.menu__btn > span::after {
+    }
+    .menu__btn > span::after {
     content: '';
     top: 8px;
-}
+    }
 
   /* menu container */
 .menu__box {
@@ -562,7 +566,7 @@ h3, img {
 
     /* background in mobile version */
     html{
-        background-image: url(background-mobile.jpg);
+        background-image: url(image/background-mobile.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
@@ -573,7 +577,7 @@ h3, img {
         opacity: 1;
     }
     .book{
-        margin-bottom: 30%;
+        margin-bottom: 20%;
     } 
     .liv{
         font-size: 30px;
@@ -583,7 +587,7 @@ h3, img {
     }
     .rezervation{
         margin-top: 30%;
-    }
+    }  
 
     /* salon background, service and discounts make transparent */
 .sal{
@@ -658,7 +662,8 @@ width: 100%;
 ********************************************************** */
 @media all and (max-width: 540px){
     .book{
-        margin-top: -29%;
+        margin-top: 180px;
+        margin-right: 20px;
     }
     .news{
         font-size: 17px;
@@ -677,7 +682,9 @@ width: 100%;
 @media all and (max-width: 500px){
 
     /* H1 resize HEADING IMAGE AND TEXT  */
-    
+    .book{
+        margin-top: -64%;
+    }
     .beauty{
         font-size: 35px;
     }
