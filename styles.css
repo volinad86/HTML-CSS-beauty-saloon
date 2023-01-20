@@ -630,6 +630,28 @@ h3, img {
     font-size: 24px;
 }
 
+/* SOLD FINAL */
+.snow{
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    margin: auto;
+}
+.btndetailed {
+    margin-bottom: 5%;
+}
+
+ /* FUTTER puts addresses and phone numbers in the right order */
+.futter1{
+    display: block;
+} 
+.zoom{
+    display: flex;
+    
+}
+.zoom1{
+width: 100%;
+}
 
 
 
