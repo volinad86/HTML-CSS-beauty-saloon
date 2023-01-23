@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<form class="form">
+        <h1 >BOOKING ONLINE</h1>
+    <div class="cont">
+        <label>NAME</label>
+        <input type="text" placeholder="name, last name" class="space">
+    </div>
+
+    <div class="cont">
+        <label>E-mail</label>
+        <input type="e-mail" placeholder="E-mail" class="space">
+    </div>
+
+    <div class="cont">
+        <label>code promo*</label>
+        <input type="password" placeholder="code promo" class="space">
+    </div>
+
+    <div class="cont">
+        <label>what service are you interested in</label>
+        <select>
+            <option class="service">WOMEN'S HAIRCUTS</option>
+            <option class="service">MEN'S HAIRCUTS</option>
+            <option class="service">CHILDREN'S HAIRCUTS</option>
+            <option class="service">HAIR COLORING</option>
+            <option class="service">MANICURE</option>
+            <option class="service">COSMETOLOGY & MASSAGE</option>
+        </select>
+    </div>
+
+    <div class="cont">
+            <label>How would you like to pay</label>
+        <div class="pay">
+            <input type="radio" name="level">
+            <label>IN CASH</label>
+        </div>
+        <div class="pay">
+            <input type="radio" name="level">
+            <label> DEBIT CARD</label>
+        </div>
+        <div class="pay">
+            <input type="radio" name="level">
+            <label> CREDIT CARD</label>
+        </div>
+    </div>
+
+    <!-- *********************************************** -->
+    <p>SELECT DATE: 
+        <input type="date" name="calendar" value=""
+        max="2025-06-04" min="2023-01-01">
+    </p>
+
+    <p>
+        <label for="time">TIME: </label>
+        <input type="time" id="time" name="time"/>
+    </p>
+
+
+    <!-- *********************************************** -->
+
+
+
+    <div class="cont">
+        <input type="checkbox">
+        <label>by ticking this box you confirm your presence by booking.</label>
+    </div>
+
+
+
+
+        <p>*Promo code is received by regular customers of our salon, which gives an additional 30% discount</p>
+    <div class="cont">
+        <button class="btn">SEND</button>
+    </div>
+</form>
+</body>
+</html>
